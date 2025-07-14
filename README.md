@@ -44,8 +44,12 @@ I chose to implement two api's,
 - activate
 - cd ../..
 
-3. **Install Dependencies**
+3. **Install Dependencies and create enviroment files for database configuration**
 - pip install -r requirements.txt
+- create .env file for postgres database inside project root
+    - DB_NAME=your-db-name
+    - USERNAME=your-user-name
+    - PASSWORD=your-postgres-password
 
 4. **Apply Migarations and create a database**
 - py manage.py makemigrations
