@@ -37,6 +37,7 @@ I chose to implement two api's,
 ## Setting Up the Project
 1. **clone the repo**
 - git clone https://github.com/PK-27-SELVAN/Sarva_Suvidhan_Assignment.git
+- cd Sarva_Suvidhan_Assignment
 
 2. **create and activate the Virtual Environment**
 - py -m venv env
